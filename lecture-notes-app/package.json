@@ -1,0 +1,47 @@
+{
+  "name": "lecture-notes-app",
+  "version": "1.0.0",
+  "description": "A web-based application that transforms lectures into organized notes using real-time speech recognition and AI-powered summarization",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -p 8000",
+    "dev": "http-server -p 8000 -o",
+    "build": "echo 'No build process needed for static files'",
+    "test": "echo 'No tests specified'",
+    "lint": "echo 'No linting configured'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/lecture-notes-app.git"
+  },
+  "keywords": [
+    "speech-recognition",
+    "transcription",
+    "notes",
+    "ai",
+    "summarization",
+    "web-speech-api",
+    "javascript",
+    "education",
+    "lecture",
+    "student-tools"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourusername/lecture-notes-app/issues"
+  },
+  "homepage": "https://github.com/yourusername/lecture-notes-app#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "last 2 Chrome versions",
+    "last 2 Firefox versions",
+    "last 2 Safari versions",
+    "last 2 Edge versions"
+  ]
+}
